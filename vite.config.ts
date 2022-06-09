@@ -1,3 +1,5 @@
+/// <reference types="histoire" />
+
 import { fileURLToPath, URL } from "url";
 import { resolve } from 'path'
 
@@ -12,5 +14,8 @@ export default defineConfig({
       // "@": fileURLToPath(new URL("./src", import.meta.url)),
       '@': resolve(__dirname, 'src'),
     },
+  },
+  histoire: {
+    // your Histoire configuration
   },
 });

@@ -6,6 +6,9 @@
       "@/*": ["./src/*"]
     }
   },
+  "include": [
+    "env.d.ts",
+  ],
   "files": [],
   "references": [
     {
